@@ -1,0 +1,38 @@
+body{
+  background: silver;
+}
+h1{
+    color: white;
+  }
+  
+.typo{
+  background: red;
+}
+
+
+.taxonomy {
+	width:100%;
+	height:auto;
+	padding:1%;
+}
+.crown_crane{
+  width: 49%;
+  float: left;
+}
+.taxonomy_text{
+  width: 50%;
+  float: left;
+}
+
+/* .taxonomy_text{
+  border: 1px solid red;
+   float: right; 
+
+} */
+
+img {
+  height: auto; 
+  width: auto; 
+  max-width: 400px; 
+  max-height: 400px;
+}

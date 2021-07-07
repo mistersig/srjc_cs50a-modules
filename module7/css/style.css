@@ -1,0 +1,64 @@
+body{
+  background: silver;
+}
+h1{
+    color: white;
+  }
+  
+.typo{
+  background: red;
+}
+ 
+
+.taxonomy {
+	width:100%;
+	height:auto;
+	padding:1%;
+}
+.crown_crane{
+  width: 49%;
+  float: left;
+  border: 1px solid blue;
+
+}
+.taxonomy_text{
+  width: 50%;
+  float: left;
+  font-family: cursive;
+  border: 1px solid red;
+  
+}
+
+/* .taxonomy_text{
+  border: 1px solid red;
+   float: right; 
+
+} */
+
+img {
+  height: auto; 
+  width: auto; 
+  max-width: 400px; 
+  max-height: 400px;
+}
+
+
+
+
+p{
+  border: 2px solid green;
+ 
+
+}
+/* Inheritance css  */
+p#metho_text {
+  border-right: 1px solid yellow;
+  border-left: 2px solid purple;
+  font-size: 20pt;
+  margin: 10px 10px 10px 10px;
+
+}
+dt{
+  border: 1px;
+
+}
