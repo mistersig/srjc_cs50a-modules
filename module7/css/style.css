@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@100&display=swap');
+
 body{
   background: silver;
 }
@@ -54,10 +56,48 @@ p{
 p#metho_text {
   border-right: 1px solid yellow;
   border-left: 2px solid purple;
+  font-family: 'Saira', sans-serif;
   font-size: 20pt;
   margin: 10px 10px 10px 10px;
+  color: blue; 
+
 
 }
+
+/* @font-face {
+  font-family: 'CaviarDreams';
+  src: url('assets/Caviar-Dreams/web-fontsCaviarDreams.eot'); 
+
+} */
+
+@font-face {
+  font-family: 'caviar_dreamsregular';
+  src: url('CaviarDreams-webfont.eot');
+  src: url('CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
+       url('CaviarDreams-webfont.woff2') format('woff2'),
+       url('CaviarDreams-webfont.woff') format('woff'),
+       url('CaviarDreams-webfont.ttf') format('truetype'),
+       url('CaviarDreams-webfont.svg#caviar_dreamsregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+p#general-crane {
+  font-family: caviar_dreamsregular;
+
+}
+
+#crane-behavior{
+  font-family:  caviar_dreamsregular;
+  color:violet;
+  background-color: black;
+  font-family:  caviar_dreamsregular;
+  
+}
+
 dt{
   border: 1px;
 
