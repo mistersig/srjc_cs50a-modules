@@ -1,75 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Saira:wght@100&display=swap');
 
-body{
-  background: silver;
-}
-h1{
-    color: white;
-  }
-  
-.typo{
-  background: red;
-}
- 
-
-.taxonomy {
-	width:100%;
-	height:auto;
-	padding:1%;
-}
-.crown_crane{
-  width: 49%;
-  float: left;
-  border: 1px solid blue;
-
-}
-.taxonomy_text{
-  width: 50%;
-  float: left;
-  font-family: cursive;
-  border: 1px solid red;
-  
-}
-
-/* .taxonomy_text{
-  border: 1px solid red;
-   float: right; 
-
-} */
-
-img {
-  height: auto; 
-  width: auto; 
-  max-width: 400px; 
-  max-height: 400px;
-}
-
-
-
-
-p{
-  border: 2px solid green;
- 
-
-}
-/* Inheritance css  */
-p#metho_text {
-  border-right: 1px solid yellow;
-  border-left: 2px solid purple;
-  font-family: 'Saira', sans-serif;
-  font-size: 20pt;
-  margin: 10px 10px 10px 10px;
-  color: blue; 
-
-
-}
-
-/* @font-face {
-  font-family: 'CaviarDreams';
-  src: url('assets/Caviar-Dreams/web-fontsCaviarDreams.eot'); 
-
-} */
-
 @font-face {
   font-family: 'caviar_dreamsregular';
   src: url('CaviarDreams-webfont.eot');
@@ -83,11 +13,193 @@ p#metho_text {
 
 }
 
+@font-face {
+  font-family: 'brushstroke_plainplain';
+  src: url('BRUSHSTP-webfont.eot');
+  src: url('BRUSHSTP-webfont.eot?#iefix') format('embedded-opentype'),
+       url('BRUSHSTP-webfont.woff2') format('woff2'),
+       url('BRUSHSTP-webfont.woff') format('woff'),
+       url('BRUSHSTP-webfont.ttf') format('truetype'),
+       url('BRUSHSTP-webfont.svg#brushstroke_plainplain') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
 
 
-p#general-crane {
+
+html{
+  /* background: rgb(255,255,255);
+  background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(255,0,0,0.75672275746236) 0%, rgba(255,255,255,1) 100%); */
+  background: rgb(178,171,191);
+  background: radial-gradient(circle, rgba(178,171,191,1) 29%, rgba(253,187,45,1) 74%); 
+}
+
+
+.crane-container {
+  margin-top: 50px;
+  position: relative;
+  text-align: center;
+  color: #F95738;
+}
+
+.container-center {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform:  rotate(-10deg) translate(-45%, -70%);
+  text-shadow:  -2px 2px 1px #FAA916;
+  font-size: 45px;
+  font-family: 'brushstroke_plainplain';
+  /* transform: rotate(-10deg); */
+}
+
+.container-center>h1{
+  text-decoration: underline;
+}
+
+.photo-credit-intro{
+  position: absolute;
+  bottom: 8px;
+  left: 40%;
+  color: #B2ABBF;
+
+}
+
+img.crane_machines{
+  height: auto; 
+  width: auto; 
+  max-width: 1000px; 
+  max-height: 1000px;
+
+}
+
+
+h2, h3 {
+  font-family: 'brushstroke_plainplain';
+  text-align: center;
+  color:#F95738;
+  text-shadow:  -2px 2px 1px #FAA916;
+  
+}
+
+.photo-credit{
+  position: absolute;
+  /* text-align: center; */
+
+  /* bottom: 8px; */
+  left: 10px;
+  color: #F95738;
+
+}
+
+
+#general-crane {
   font-family: caviar_dreamsregular;
+  text-align: center;
+  font-size: 20px;
+  margin-top: 5rem;
 
+}
+
+
+
+.mythology{
+  display: flex;
+  position: relative;
+  text-align: center;
+  
+  /* align-items:center; */
+
+}
+
+.chinese_mythology{
+  display: flex;
+  justify-content: center;
+}
+
+
+.typo{ 
+  background: red;
+}
+ 
+
+.taxonomy-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.taxonomy_text{
+
+  font-family: 'Saira', sans-serif;
+  font-size: 20px;
+
+  
+}
+
+img {
+  height: auto; 
+  width: auto; 
+  max-width: 800px; 
+  max-height: 800px;
+}
+
+
+img#crane_pic_1 {
+  height: auto; 
+  width: auto; 
+  max-width: 800px; 
+  max-height: 800px;
+}
+
+
+/* Inheritance css  */
+p#metho_text {
+  /* border-right: 1px solid yellow;
+  border-left: 2px solid purple; */
+  /* float: left; */
+  font-family: 'Saira', sans-serif;
+  font-size: 20pt;
+  /* margin: 10px 10px 10px 10px;
+  color: blue;  */
+
+
+}
+
+/* @font-face {
+  font-family: 'CaviarDreams';
+  src: url('assets/Caviar-Dreams/web-fontsCaviarDreams.eot'); 
+
+} */
+
+
+.link-center1{
+  position: absolute;
+  /* top: 40%; */
+   left: 20%;  
+   bottom: -415%; 
+  transform:  rotate(-10deg) translate(-45%, -70%);
+  text-shadow:  -2px 2px 1px #FAA916;
+  color: #FF0000;
+  font-size: 30px;
+  font-family: 'brushstroke_plainplain';
+}
+
+.link-center2{
+  position: absolute;
+  /* top: 40%; */
+  left: 70%; 
+  bottom: -405%; 
+  transform:  rotate(-10deg) translate(-45%, -70%);
+  text-shadow:  -2px 2px 1px #FAA916;
+  color: #FF0000;
+  font-size: 30px;
+  font-family: 'brushstroke_plainplain';
+}
+
+.linkpages{
+  color: #fff;
 }
 
 #crane-behavior{
@@ -97,6 +209,8 @@ p#general-crane {
   font-family:  caviar_dreamsregular;
   
 }
+
+
 
 dt{
   border: 1px;
