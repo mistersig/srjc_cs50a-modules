@@ -1,0 +1,52 @@
+
+body {
+  padding: 10px;
+  background-image: url("../assets/crane_intro.jpg");
+  background-size: 100rem;
+  position:relative;
+  /* background-repeat: no-repeat; */
+}
+
+
+
+section{
+  /* background-color: thistle; */
+  display: block;
+  margin: 10px;
+  /* float: left; */
+  background-color: rgb(255, 235, 205, .5);
+  
+
+}
+
+aside{
+  float: right;
+}
+p{
+  background-color: violet;
+  /* opacity: .5; */
+
+}
+
+.crane_para{
+  border: 5px solid yellowgreen ;
+  border-radius: 10px;
+  box-sizing: border-box;
+  display:inline-block;
+  /* Margin is transparent and gives the  color of parent element  */
+  margin: 10px; 
+  padding: 30px;
+  width: 400px;
+  height: 600px;
+  /* float: left; */
+
+}
+
+/* ID overrides an div  */
+#metho_text{
+  float: left;
+  margin: 10px; 
+  padding: 30px;
+  
+
+}
