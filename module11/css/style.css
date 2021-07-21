@@ -6,7 +6,7 @@ body {
   position:relative;
   /* background-repeat: no-repeat; */
 }
-
+ 
 
 
 section{
@@ -14,7 +14,7 @@ section{
   display: block;
   margin: 10px;
   /* float: left; */
-  background-color: rgb(255, 235, 205, .5);
+  background-color: rgba(139, 160, 255, 0.5);
   
 
 }
@@ -22,13 +22,14 @@ section{
 aside{
   float: right;
 }
+
 p{
   background-color: violet;
   /* opacity: .5; */
 
 }
 
-.crane_para{
+.myth_section{
   border: 5px solid yellowgreen ;
   border-radius: 10px;
   box-sizing: border-box;
@@ -43,10 +44,10 @@ p{
 }
 
 /* ID overrides an div  */
-#metho_text{
+/* #metho_text{
   float: left;
   margin: 10px; 
   padding: 30px;
   
 
-}
+} */
