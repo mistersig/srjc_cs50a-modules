@@ -1,0 +1,62 @@
+.grid-parent {
+    display: grid;
+    grid-template-areas:
+      'header header header nav nav nav'
+      /* 'header header header header header header' */
+      'main main main main email email'
+      'main1 main1 main1 main1 email email'
+      'main2 main2 main2 main2 email email'
+      
+      'footer footer footer footer footer footer';
+    grid-gap: 10px;
+    background-color: #21f321;
+    padding: 10px;
+ 
+  }
+  
+  .header1 { grid-area: header; }
+  .navbar0 { grid-area: nav; }
+  .section1 { grid-area: main; }
+  .section2 { grid-area: main1; }
+  .section3 { grid-area: main2; }
+  .aside1 { grid-area: email; }
+  .footer1{ grid-area: footer; }
+  
+  .grid-parent > * {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    border: 3px solid ;
+    border-color: aquamarine;
+  }
+
+
+  .navbar1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .navbar2 {
+    display:inline;
+    float: right;
+  
+  }
+  
+  .navbar2 a{
+    
+    /* display: inline-block; */
+    padding: 8px;
+    background-color: #dddddd;
+  }
+
+
+
+  img {
+    height: auto; 
+    width: auto; 
+    max-width: 600px; 
+    max-height: 600px;
+  }

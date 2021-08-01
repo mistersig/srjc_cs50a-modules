@@ -1,0 +1,27 @@
+/* CSS Media Queries for typical devices */
+
+/* 1: Extra small devices (phones, less than 768px) */
+/* No media query since this is the default ruleset in a "mobile first" approach */
+
+/* 2: Small devices (tablets, 768px and up) */
+@media (min-width:768px) { 
+
+}
+
+/* 3: Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+
+}
+
+/* 4: Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+
+}
+
+The media queries above define the following screen width breakpoints:
+
+    less than 768px
+    768px – 991px
+    992px – 1199px
+    1200px or greater
