@@ -29,6 +29,7 @@
 .section2 { grid-area: main1; }
 .section3 { grid-area: main2; }
 
+
 .aside1 { grid-area: email; }
 .footer1{ grid-area: footer; }
   
@@ -41,7 +42,28 @@
   border-color: aquamarine;
 }
 
+/* for second page */
+.grid-parent-second {
+  display: grid;
+  grid-template-areas:
+    'header2 header2 header2 nav2 nav2 nav2'
+    /* 'header header header header header header' */
 
+    'secondmain secondmain secondmain secondmain secondmain secondmain '
+    
+    'footer footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: #0d110d;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+
+}
+
+
+/* for second */
+.section1-second { grid-area: secondmain ; }
 
    /* Small devices (portrait tablets and large phones, 600px and up)
  @media only screen and (max-width: 768px) {...} */
