@@ -15,7 +15,7 @@
     grid-gap: 10px;
     background-color: #0d110d;
     padding: 10px;
-    display: flex;
+    /* display: flex; */
     flex-direction: row;
     flex-wrap:wrap;
  
@@ -132,46 +132,6 @@
 
  }
  
- /* Extra large devices (large laptops and desktops, 1200px and up) */
- @media only screen and (min-width: 1200px) {
-   .splash-welcome{
-    flex-basis: 100%;
-    max-width: 100%;
-    max-height: 100%;
-    /* padding-right: 10px; */
-    box-sizing: border-box;
-
-   }
-
-  .section1{
-    flex-basis: 70%;
-    max-width: 70%;
-    padding-right: 10px;
-    box-sizing: border-box;
-   }
-   .section2{
-    flex-basis: 70%;
-    max-width: 70%;
-    padding-right: 10px;
-    box-sizing: border-box;
-   }
-   .aside1{
-    flex-basis: 30%;
-    max-width: 30%;
-    padding-right: 10px;
-    box-sizing: border-box;
-   }
-   .footer1{
-    flex-basis: 100%;
-    max-width: 100%;
-    padding-right: 10px;
-    box-sizing: border-box;
-
-   }
-
-  
-
- } 
 
   .navbar1 {
     list-style-type: none;

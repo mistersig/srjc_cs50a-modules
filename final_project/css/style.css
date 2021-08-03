@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+ 
+.grid-parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-template-areas:
+    'header   header   header'
+    'nav      nav      nav'
+    'splash   splash   splash'
+    'article1 article1 sidebar'
+    'article2 article2 sidebar'
+    'article3 article3 sidebar'
+    'footer   footer   footer';
+    background-color: #808080;
+    /* grid-gap: 10px;
+    
+    flex-direction: row;
+    flex-wrap:wrap;  */
+  }
+
+  .grid-parent > * {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 10px 0;
+    /* font-size: 30px; */
+    border: 3px solid ;
+    border-color: aquamarine;
+   
+  } 
+
+  .header1 { grid-area: header; 
+  }
+  .navbar0 { grid-area: nav;
+   }
+  .splash-welcome { grid-area: splash; 
+  }
+  .section1 { grid-area: article1; 
+  }
+  .section2 { grid-area: article2; 
+  }
+  .section3 { grid-area: article3; 
+  }
+  .aside1 { grid-area: sidebar; 
+  }
+  .footer1{ grid-area: footer; 
+
+  }
+    
+/* Add Media Queries Later  */
+
+/* 
+    Large Desktop: Minimum width of 1200 pixels, at least three columns
+    Desktop: Minimum width of 992 pixels, two to three columns
+    Tablet: Minimum width of 768 pixels, two columns
+    Smartphone: Smaller than 768 pixels, one column
+ */
+
+.splash-welcome{
+  background-image: url("../assets/alexander-mils.jpg");
+  /* width: 100%; */
+  height: 500px; 
+  background-size: 100% 100%;
+
+} 
+
+.blog-title{
+  font-size: 70px; 
+  text-decoration: underline;
+    /* width: 100%;
+    height: 100%; */
+    color: white;
+    text-align: center;
+    vertical-align: text-bottom;
+    position: absolute;
+    /* top: 30%; */
+    left: 35%;
+    font-family: 'Alfa Slab One', cursive;
+  }
+
+
+
+
+
+
+
+
+
+
+/* .header1 { grid-area: header; 
+  background-color: rgba(255, 255, 255, 0.8);
+  
+  border: 3px solid ;
+  border-color: aquamarine;
+}
+.navbar0 { grid-area: nav;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 3px solid ;
+  border-color: aquamarine;
+ }
+.splash-welcome { grid-area: splash; 
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 3px solid ;
+  border-color: aquamarine;
+}
+.section1 { grid-area: article1; 
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 3px solid ;
+  border-color: aquamarine;
+}
+.section2 { grid-area: article2; 
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 3px solid ;
+  border-color: aquamarine;
+}
+.section3 { grid-area: article3; 
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 3px solid ;
+  border-color: aquamarine;
+}
+.aside1 { grid-area: sidebar; 
+  background-color: rgba(255, 17, 17, 0.8);
+  border: 3px solid ;
+  border-color: aquamarine;
+}
+.footer1{ grid-area: footer; 
+  background-color: rgba(255, 255, 255, 0.8);
+  border-color: aquamarine;
+}
+   */
+
+
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
