@@ -80,10 +80,51 @@
 
 
 
+.email-form{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  background-color: #808080;
+}
+
+.email-form label {
+  margin: 5px 10px 5px 0;
+  background-color: #808080;
+}
 
 
+/* Style the input fields */
+.email-form input {
+  vertical-align: middle;
+  margin: 5px 10px 5px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
 
+/* Style the submit button */
+.email-form button {
+  padding: 10px 20px;
+  background-color: dodgerblue;
+  border: 1px solid #ddd;
+  color: white;
+}
 
+.email-form button:hover {
+  background-color: royalblue;
+}
+
+/* Add responsiveness - display the form controls vertically instead of horizontally on screens that are less than 800px wide */
+@media (max-width: 800px) {
+  .email-form input {
+    margin: 10px 0;
+  }
+
+  .email-form {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
 
 
 
