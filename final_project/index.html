@@ -14,19 +14,36 @@
 
 <body>
     <div class="grid-parent">
-        <header class="header1">
-            <h1>
-                Low Key Loaded
-            </h1>
-        </header>
-        <nav class="navbar0">
-            <ul class="navbar1">
-                <li class="navbar2"><a href="index.html">Home</a></li>
-                <li class="navbar2"><a href="pages/articles.html">Articles</a></li>
-                <li class="navbar2"><a href="pages/email.html">Email</a></li>
-                <li class="navbar2"><a href="pages/about.html">About</a></li>
+        <nav class="navbar0" id="menuhomeicon">
+            <ul class="dropdown">
+                <li>
+                    <!-- Customize This button -->
+                    <a href="index.html" id="menuhomeicon"> LowKeyLoaded</a>
+                </li>
+
+                <li>
+                    <a href="#">Articles</a>
+                    <ul>
+                        <li><a href="pages/article1.html">Money Journal: Phd</a></li>
+                        <li><a href="pages/article2.html">Money Journal: Couple in Bay</a></li>
+                        <li><a href="pages/article3.html">Investment Funds</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Newsletter</a>
+                    <ul>
+                        <li><a href="pages/email.html">Email Sign-up</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">About Us</a>
+                    <ul>
+                        <li><a href="pages/article3.html">About</a></li>
+                    </ul>
+                </li>
             </ul>
         </nav>
+
 
         <section class="splash-welcome">
             <p class="blog-title">
@@ -45,70 +62,93 @@
         </section>
 
 
-        <section class="section1">
+        <section class="section1 article-smalldesc">
+            <img src="assets/phd.jpg" alt="phd student">
             <article>
                 <h2>
-                    <a href="pages/article1.html">Article 1</a>
+                    <a href="pages/article1.html">Money Journal</a>
                 </h2>
-                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.
+                <h4>PhD on 78k Income</h4>
+                <p>Today: a PhD student/social media content creator who makes $96,000 per year and spends some of her
+                    money this week on Brooklinen towel
+                </p>
+
+            </article>
+
+            <p> Photo by <a
+                    href="https://unsplash.com/@beccatapert?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Becca
+                    Tapert</a> on <a
+                    href="https://unsplash.com/s/photos/phd?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </p>
+        </section>
+
+        <section class="section2 article-smalldesc">
+            <img src="assets/housewife.jpg" alt="couple cooking together">
+            <article>
+                <h2>
+                    <a href="pages/article2.html">Money Journal</a>
+                </h2>
+                <h4>Living Comfortably in the Bay </h4>
+                <p>
+                    Today: a housewife who has a joint income of $1.3 million and spends some of her money this week on
+                    Valentino combat boots.
+                </p>
+
+                <p>
+                    Photo by <a
+                        href="https://unsplash.com/@beccatapert?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Becca
+                        Tapert</a> on <a
+                        href="https://unsplash.com/s/photos/house-wife?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
                 </p>
 
             </article>
         </section>
 
-        <section class="section2">
+        <section class="section3 article-smalldesc">
+            <img src="assets/third.jpg" alt="third sign">
             <article>
                 <h2>
-                    <a href="pages/article2.html">Article 2</a>
+                    <a href="pages/article3.html">The Three Fund Portfolio</a>
                 </h2>
+                <h4>A three-fund portfolio is a portfolio which uses only basic asset classes </h4>
                 <p>
-                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
-                    totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae
-                    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit,
-                    sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam
-                    est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius
-                    modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
-                    veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea
-                    commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil
-                    molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+                    usually a domestic stock "total market" index fund, an international stock "total market" index fund
+                    and a bond "total market" index fund. It is often recommended for and by Bogleheads attracted by
+                    "the majesty of simplicity" (Bogle's phrase), and for those who want finer control and better
+                    tax-efficiency than they would get in an all-in-one fund like a target retirement fund.
                 </p>
 
-            </article>
-        </section>
-
-        <section class="section3">
-            <article>
-                <h2>
-                    <a href="pages/article3.html">Article 3</a>
-                </h2>
                 <p>
-                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
-                    deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non
-                    provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum
-                    fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis
-                    est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis
-                    voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis
-                    aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non
-                    recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus
-                    maiores alias consequatur aut perferendis doloribus asperiores repellat.
+                    Photo by <a
+                        href="https://unsplash.com/@possessedphotography?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Possessed
+                        Photography</a> on <a
+                        href="https://unsplash.com/s/photos/third?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
                 </p>
 
             </article>
         </section>
 
         <aside class="aside1">
-            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro quas ipsum tempora, minima labore atque,
-                error assumenda mollitia placeat amet enim doloremque dolores. Repellat in accusamus commodi assumenda
-                est deleniti! </p>
+            <H3>LOW KEY LOADED</H3>
+            <p>Never Miss Advice on Your Road to Financial Freedom</p>
+            <form action="pages/email.html">
+                <input class="joinbutton" type="submit" value="JOIN L.K.L." />
+            </form>
+
+            <p>Photo by <a
+                    href="https://unsplash.com/@marvelous?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Marvin
+                    Meyer</a> on <a
+                    href="https://unsplash.com/s/photos/freedome?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </p>
+
         </aside>
 
 
         <footer class="footer1">
-            <p>Helping you reach financial freedom</p>
+            <p>Helping you reach financial freedom. Low Key Loaded is not a certified financial accountant. All articles
+                are for financial education and entertainment. We do not assume no liability. </p>
         </footer>
 
 
